@@ -39,16 +39,13 @@ Answer: The variables that are removed are columns EIN and NAME because they did
 
 Compiling, Training, and Evaluating the Model
 Bullet 1:How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Answer: 
+Answer: In my first attempt I chose numbers 75 and 25 in my nodes_hidden_layers. These nuumbers were randomly chosen from 1-100.
 
 Bullet 2:Were you able to achieve the target model performance?
-Answer: 
+Answer: Unfortunately I was unable to achieve the model accuracy target of 75%. I was only able to get 72% accuracy.
 
 Bullet 3: What steps did you take in your attempts to increase model performance?
-Answer: 
+Answer: I added more layers in my In my second and third attempts with random numbers from 1-100. I also switched up my activation functions when trying to achieve the 75% target accuracy.
 
-Looking back at the data and code I can see that I can no longer get a higher accuracy than 72%. 
-
-After completely each file of coding, I then saved then into an h5 file which is attached to the repository.
-
-What I would recommend would either to add more node hidden layers or to just have one node hidden layer. I would also remove other columns than the ones that I chose or even certain data sets in columns.
+Summary: 
+Looking back at the data and code I can see that I can no longer get a higher accuracy than 72%. The possible chance of getting a higher accuracy would be to do more of a cleanup of the data again which should lead to a higher accuracy. After that you would then try to use the model from the code and try different activations to then find a possible chance of a higher accuracy.
