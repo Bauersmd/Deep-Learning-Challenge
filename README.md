@@ -26,8 +26,8 @@ From there I added another node hidden layer to change my accuracy that could be
 
 After running my next three codes for a higher accuracy I was unable to change it.
 
-Results:
-Data Preprocessing:
+Results: 
+Data Preprocessing: 
 Bullet 1: What variable(s) are the target(s) for your model?
 Answer: IS_SUCCESSFUL column is the target variable from the csv.
 
