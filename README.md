@@ -26,6 +26,27 @@ From there I added another node hidden layer to change my accuracy that could be
 
 After running my next three codes for a higher accuracy I was unable to change it.
 
+Results:
+Data Preprocessing:
+Bullet 1: What variable(s) are the target(s) for your model?
+Answer: IS_SUCCESSFUL column is the target variable from the csv.
+
+Bullet 2: What variable(s) are the features for your model?
+Answer: The variables that are features in the data frame are every column after dropping IS_SUCCESSFUL from the dataset.
+
+Bullet 3: What variable(s) should be removed from the input data because they are neither targets nor features?
+Answer: The variables that are removed are columns EIN and NAME because they did not have data that benefited the data sets.
+
+Compiling, Training, and Evaluating the Model
+Bullet 1:How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Answer: 
+
+Bullet 2:Were you able to achieve the target model performance?
+Answer: 
+
+Bullet 3: What steps did you take in your attempts to increase model performance?
+Answer: 
+
 Looking back at the data and code I can see that I can no longer get a higher accuracy than 72%. 
 
 After completely each file of coding, I then saved then into an h5 file which is attached to the repository.
